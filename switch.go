@@ -22,6 +22,6 @@ func getweekday(day int )string{
 }
 func main(){
 	day := 3
-	weekdayname := getweekdayname(day)
+	weekdayname := getweekday(day)
 	fmt.Println(weekdayname)
 }
